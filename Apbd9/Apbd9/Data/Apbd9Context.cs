@@ -23,6 +23,7 @@ public partial class Apbd9Context : DbContext
     public virtual DbSet<Country> Countries { get; set; }
 
     public virtual DbSet<Trip> Trips { get; set; }
+    
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
